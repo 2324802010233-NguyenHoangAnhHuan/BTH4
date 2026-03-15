@@ -27,6 +27,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Api", "Policy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyService.Test", "PolicyService.Test\PolicyService.Test.csproj", "{20964E5D-089C-4588-95AB-6FD13232CB40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService", "DocumentService\DocumentService.csproj", "{8D692CE4-E244-4837-9C91-45F3A5299497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Api", "DocumentService.Api\DocumentService.Api.csproj", "{5CDDC1AF-1FB0-4ECC-BA60-D50433AA5A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService.Test", "DocumentService.Test\DocumentService.Test.csproj", "{A73EDC49-5851-4C99-9870-542DE0754EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService", "ChatService\ChatService.csproj", "{E49C8C1D-C958-4981-92CA-2738DDDF1FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Api", "ChatService.Api\ChatService.Api.csproj", "{552A5D8F-878F-499A-A416-B8978DD6F244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.Test", "ChatService.Test\ChatService.Test.csproj", "{4DF1298C-A503-42E5-B7FF-C50DB3376345}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +93,30 @@ Global
 		{20964E5D-089C-4588-95AB-6FD13232CB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20964E5D-089C-4588-95AB-6FD13232CB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20964E5D-089C-4588-95AB-6FD13232CB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D692CE4-E244-4837-9C91-45F3A5299497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D692CE4-E244-4837-9C91-45F3A5299497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D692CE4-E244-4837-9C91-45F3A5299497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D692CE4-E244-4837-9C91-45F3A5299497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDDC1AF-1FB0-4ECC-BA60-D50433AA5A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDDC1AF-1FB0-4ECC-BA60-D50433AA5A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDDC1AF-1FB0-4ECC-BA60-D50433AA5A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDDC1AF-1FB0-4ECC-BA60-D50433AA5A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73EDC49-5851-4C99-9870-542DE0754EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73EDC49-5851-4C99-9870-542DE0754EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73EDC49-5851-4C99-9870-542DE0754EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73EDC49-5851-4C99-9870-542DE0754EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49C8C1D-C958-4981-92CA-2738DDDF1FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49C8C1D-C958-4981-92CA-2738DDDF1FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49C8C1D-C958-4981-92CA-2738DDDF1FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49C8C1D-C958-4981-92CA-2738DDDF1FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552A5D8F-878F-499A-A416-B8978DD6F244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552A5D8F-878F-499A-A416-B8978DD6F244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552A5D8F-878F-499A-A416-B8978DD6F244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552A5D8F-878F-499A-A416-B8978DD6F244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF1298C-A503-42E5-B7FF-C50DB3376345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF1298C-A503-42E5-B7FF-C50DB3376345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF1298C-A503-42E5-B7FF-C50DB3376345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF1298C-A503-42E5-B7FF-C50DB3376345}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
